@@ -61,7 +61,7 @@ section {
 }
 
 .timeline {
-  padding: 0 200px;
+  padding: 0 100px;
   width: 100%;
 }
 
@@ -81,9 +81,10 @@ section {
 
 .image {
   width: 150px;
-  height: 146px;
+  height: 150px;
   float: right;
   object-fit: cover;
+  margin: 20px 0; 
 }
 
 .more-info {
