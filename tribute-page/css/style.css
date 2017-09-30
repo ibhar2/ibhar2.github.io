@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(http://www.800lifestyle.com/sites/default/files/field/image/keanu-reeves-background-hd-wallpapers.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Bree Serif', serif;
+}
+
+#title, #sub-title {
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px 1px rgba(0, 0, 0, .8);
+}
+
+#title {
+  padding-top: 200px;
+  font-size: 100px;
+}
+
+#sub-title {
+  font-size: 50px;
+}
+
+main {
+  background-color: #111;
+  font-family: Verdana, Arial, Sans-serif;
+}
+
+section {
+  border: 2px solid black;
+  padding: 0 70px;
+  margin: 0 60px;
+  background-color: #c4be6b;
+}
+
+.bio {
+  padding: 40px;
+}
+
+.timeline {
+  padding: 0 200px;
+}
+
+.container {
+  margin: 5px;
+  height: 150px;
+  border-bottom: 1px solid black;
+}
+
+.description {
+  list-style-type: none;
+  float: left;
+  width: 70%;
+  padding: 10px;
+}
+
+.image {
+  width: 150px;
+  height: 146px;
+  float: right;
+  object-fit: cover;
+}
+
+.more-info {
+  clear: both;
+  padding-top: 40px;
+}
+
+footer {
+  padding: 30px 0;
+  text-align: center;
+  background-color: #111;
+  color: white;
+  font-family: Verdana, Arial, Sans-serif;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.more-info img {
+  width: 20%;
+  display: block;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
